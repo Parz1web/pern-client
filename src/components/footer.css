@@ -1,0 +1,25 @@
+li{
+    list-style: none;
+}
+.footer{
+    background-color: #171718;
+    color: #fff;
+    margin-top: auto;
+    padding: 60px 0 50px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.footer__wrapper, .social {
+    align-items: center;
+    display: flex;
+}
+.footer__wrapper {
+    flex-direction: column;
+    row-gap: 27px;
+}
+.social{
+    column-gap: 20px;
+}
